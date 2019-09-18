@@ -9,15 +9,22 @@
 <body>
     <h1>Dice Game - OOP in JS-example</h1>
     <div id="diceGame">
-        <p>Vuoro <span id="turn"></span> </p>
-        <p>Kierroksen pisteet <span id="turnPoints"></span> </p>
+        <h2>Game</h2>
+        <p>Turn: <span id="turn"></span> </p>
+        <p>Dice: <span id="dice"></span> </p>
+        <p>Turn points: <span id="turnPoints"></span> </p>
         <button id="play">Play</button>
         <button id="getPoints">Get Points</button>
     </div>
 
+    <div>
+        <h2>Players</h2>
+        <div id="players"></div>
+        <button id="newGame">New Game</button>
+    </div>
 
-
-    <script src="js/Game.class.js"></script>
-    <script src="js/game.js"></script>
+    <script src="js/Player.js"></script>
+    <script src="js/Game.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
